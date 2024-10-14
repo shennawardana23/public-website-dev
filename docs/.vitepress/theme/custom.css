@@ -1,0 +1,93 @@
+:root {
+    --vp-c-brand: #4169E1;
+    --vp-c-brand-light: #6495ED;
+    --vp-home-hero-name-color: transparent;
+    --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #4169E1, #6495ED);
+}
+
+.VPHero .text {
+    font-size: 2.5rem !important;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+.VPHero .tagline {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.VPButton {
+    border-radius: 20px;
+}
+
+.custom-layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem 0;
+}
+
+.hero-content {
+    flex: 1;
+}
+
+.hero-image {
+    flex: 1;
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    object-fit: contain;
+    margin: 0 auto;
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button-brand {
+    background-color: var(--vp-c-brand);
+    color: white;
+}
+
+.button-alt {
+    background-color: var(--vp-c-gray);
+    color: var(--vp-c-text-1);
+}
+
+@media (max-width: 768px) {
+    .custom-layout {
+        flex-direction: column;
+    }
+
+    .hero-image {
+        max-width: 90%;
+    }
+}
+
+.VPHero .image-src {
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.VPHero .image-src:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}

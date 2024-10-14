@@ -1,6 +1,7 @@
 {
   "name": "public-website-dev",
   "version": "1.0.0",
+  "type": "module",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -13,6 +14,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "vitepress": "^1.4.1"
+    "vitepress": "^1.0.0-alpha.75"
   }
 }
