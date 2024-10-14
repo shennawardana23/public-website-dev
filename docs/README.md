@@ -2,7 +2,7 @@
 
 folder
 
-```
+```markdown
 .
 ├─ docs
 |  ├─ .github
