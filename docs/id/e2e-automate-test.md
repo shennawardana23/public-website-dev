@@ -1,7 +1,5 @@
 # <img src="https://emojis.slackmojis.com/emojis/images/1588315024/8823/hyperkitty.gif?1588315024" width="30" /> Panduan untuk End to End (E2E) Automation Test Developer
 
-[Back to Home](en-README.md)
-
 Bagian ini berisi mengenai panduan untuk membuat kode, menggunakan *third-party tools*, penjelasan alur atau arsitektur dan pustaka yang ada dan/atau digunakan dalam membuat *end to end automation test* di Arch Public Website Dev.
 
 ---

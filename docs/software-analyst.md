@@ -1,7 +1,5 @@
 # <img src="https://media.giphy.com/media/fYSnHlufseco8Fh93Z/giphy.gif" width="30"> Guidelines in Software Analyst
 
-[Back to Home](en-README.md)
-
 This section contains a description of the analysis documents on the Archipelago Public Website, processes and agreements that apply to the Archipelago Public Website.
 
 ---

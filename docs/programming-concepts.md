@@ -1,7 +1,5 @@
 # <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50">  Guidelines and Basic Concepts of Programming
 
-[Back to Home](en-README.md)
-
 This section contains a summary and basic references for programming for Arch Public Website Developer.
 
 ---

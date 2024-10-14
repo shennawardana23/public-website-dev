@@ -1,7 +1,5 @@
 # <img src="https://media.giphy.com/media/fYSnHlufseco8Fh93Z/giphy.gif" width="30"> Panduan untuk Software Analyst
 
-[Kembali ke Beranda](README.md)
-
 Bagian ini berisi mengenai deskripsi dokumen analisis yang ada di Archipelago Public Website, proses dan kesepakatan yang berlaku di Archipelago Public Website.
 
 ---

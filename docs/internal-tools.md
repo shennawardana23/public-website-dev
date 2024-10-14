@@ -1,7 +1,5 @@
 # <img src="https://github.com/SP-XD/SP-XD/blob/main/images/lightning.gif?raw=true" width="20" /> Internal Tools Developer
 
-[Back to Home](en-README.md)
-
 This section contains guidelines for creating code, using *third party tools*, an explanation of the architecture and libraries that exist and/or are used in creating *internal tools* on the Arch Public Website Dev.
 
 ---

@@ -19,7 +19,7 @@ Bagian ini berisi rangkuman dan referensi dasar dasar pemrograman bagi tim tekni
 
 ---
 
-- 📚 [Internal Tools Developer](internal-tools-development.md)
+- 📚 [Internal Tools Developer](internal-tools.md)
 
 Bagian ini berisikan Internal tools yang digunakan Arch Public Website Dev.
 
@@ -37,13 +37,13 @@ Bagian ini berisikan panduan untuk melakukan testing dengan baik, deskripsi doku
 
 ---
 
-- 📚 [Panduan untuk Software Analyst](software-analysis.md)
+- 📚 [Panduan untuk Software Analyst](software-analyst.md)
 
 Bagian ini berisi tentang deskripsi dokumen analisis yang ada di Arch Public Website Dev, proses dan kesepakatan yang berlaku.
 
 ---
 
-- 📚 [Panduan untuk E2E Automation Test](e2e-automate-test-development.md)
+- 📚 [Panduan untuk E2E Automate Test](e2e-automate-test.md)
 
 Bagian ini berisi tentang deskripsi untuk melakukan end to end testing, proses dan kesepakatan yang berlaku di Arch Public Website Dev.
 

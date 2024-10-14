@@ -1,7 +1,5 @@
 # <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="40"> Panduan untuk Quality Assurance
 
-[Kembali ke Beranda](README.md)
-
 Bagian ini berisi mengenai panduan untuk melakukan testing dengan baik, deskripsi dokumen, proses dan kesepakatan yang berlaku di Arch Public Website Dev.
 
 ---

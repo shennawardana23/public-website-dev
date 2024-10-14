@@ -1,7 +1,5 @@
 # <img src="https://github.com/SP-XD/SP-XD/blob/main/images/lightning.gif?raw=true" width="20" /> Internal Tools Developer
 
-[Kembali ke Beranda](README.md)
-
 Bagian ini berisi mengenai panduan untuk membuat kode, menggunakan *third-party tools*, penjelasan arsitektur dan pustaka yang ada dan/atau digunakan dalam membuat *internal tools* di Arch Public Website Dev.
 
 ---

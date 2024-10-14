@@ -28,11 +28,11 @@ This document is broken down into several main sections:
   
   This section provides guidelines for conducting thorough testing, descriptions of documents, processes, and agreements that apply to the Archipelago Public Website Dev.
 
-- 📚 [Guidelines for Software Analysis](software-analysist.md)
+- 📚 [Guidelines for Software Analysis](software-analyst.md)
   
   This section contains a description of the existing documents analyzed on the Archipelago Public Website Dev, processes, and applicable agreements.
 
-- 📚 [Guidelines for E2E Automation Testing](automation-test.md)
+- 📚 [Guidelines for E2E Automation Testing](e2e-automate-test.md)
   
   This section describes the end-to-end testing implementation, process, and agreements that apply to the Archipelago Public Website Dev.
 

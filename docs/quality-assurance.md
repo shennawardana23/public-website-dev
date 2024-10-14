@@ -1,7 +1,5 @@
 # <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="40"> Guidelines in Quality Assurance
 
-[Back to Home](en-README.md)
-
 This section contains guidelines for conducting testing well, descriptions of documents, processes and agreements that apply to the Arch Public Website Dev.
 
 ---

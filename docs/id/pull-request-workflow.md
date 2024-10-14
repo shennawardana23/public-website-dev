@@ -1,7 +1,5 @@
 # <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="50"> Kolaborasi dan Review menggunakan *Pull Request*
 
-[Kembali ke Beranda](README.md)
-
 Bagian ini berisi tentang proses *Pull Request* yang berjalan di Arch Public Website Dev, tata cara dan kesepakatan yang berlaku.
 
 ---
