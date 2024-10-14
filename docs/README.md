@@ -8,7 +8,7 @@ This document provides an explanation of work procedures, tools used, and other 
 
 ---
 
-## Table of Contents
+### Table of Contents
 
 This document is broken down into several main sections:
 

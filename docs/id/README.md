@@ -9,7 +9,7 @@ Dokumen ini berisi penjelasan mengenai tata cara kerja, perangkat yang digunakan
 
 ---
 
-## Daftar Isi
+### Daftar Isi
 
 Dokumen ini terbagi ke dalam beberapa bagian utama, yaitu:
 
