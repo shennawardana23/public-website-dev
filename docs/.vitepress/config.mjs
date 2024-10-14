@@ -63,5 +63,6 @@ export default defineConfig({
         ssr: {
             noExternal: ['vitepress-theme-custom']
         }
-    }
+    },
+    base: '/public-website-dev/',
 })
