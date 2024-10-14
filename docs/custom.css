@@ -1,0 +1,744 @@
+:root {
+    --theme-color: #3F51B5;
+}
+
+.sidebar {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    background-color: #f3f3f3;
+    overflow-y: auto;
+    transition: transform 0.3s ease;
+    z-index: 99;
+}
+
+.markdown-section {
+    max-width: 850px;
+}
+
+.markdown-section h1 {
+    font-size: 2rem;
+    color: var(--theme-color);
+}
+
+.markdown-section h2 {
+    font-size: 1.5rem;
+}
+
+.markdown-section p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.sidebar-nav>ul>li>a {
+    font-weight: bold;
+}
+
+/* Style for cover page */
+section.cover {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #fff;
+    z-index: 999;
+    transition: transform 0.3s ease;
+}
+
+/* Hide cover when not on homepage */
+section.cover.show {
+    transform: translateY(-100%);
+}
+
+/* Ensure main content is visible when cover is hidden */
+.content {
+    transition: opacity 0.3s ease;
+}
+
+.ready .content {
+    opacity: 1;
+}
+
+/* Adjust button style */
+section.cover .cover-main>p:last-child a {
+    transition: all 0.3s ease;
+}
+
+section.cover .cover-main>p:last-child a:hover {
+    color: var(--theme-color, #42b983);
+    opacity: 1;
+}
+
+/* Style sidebar links */
+.sidebar ul li a {
+    font-size: 15px;
+    font-weight: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* Style active sidebar link */
+.sidebar ul li.active>a {
+    border-right: 2px solid;
+    color: var(--theme-color, #42b983);
+    font-weight: 600;
+}
+
+/* Add some padding to the bottom of the sidebar for better scrolling */
+.sidebar-nav {
+    padding-bottom: 40px;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .sidebar {
+        left: -300px;
+        transition: transform .25s ease-out;
+    }
+
+    .content {
+        margin-left: 0;
+        transition: transform .25s ease;
+    }
+
+    .sidebar-toggle {
+        display: flex;
+    }
+
+    body.close .sidebar {
+        transform: translateX(300px);
+    }
+
+    body.close .content {
+        transform: translateX(300px);
+    }
+}
+
+/* Navbar styles */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    padding: 0 20px;
+    background-color: #0D205A;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding-top: 60px;
+}
+
+/* Adjust content area */
+.content {
+    padding-top: 0;
+}
+
+/* Ensure sidebar starts right below navbar */
+.sidebar {
+    top: 60px;
+    height: calc(100vh - 60px);
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    nav {
+        padding: 0 10px;
+    }
+}
+
+/* Navbar styles */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    padding: 0 20px;
+    background-color: #0D205A;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+}
+
+#sidebar-toggle {
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+#navbar-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+#language-switcher {
+    position: relative;
+    margin-right: 20px;
+}
+
+#language-switcher>span {
+    cursor: pointer;
+    padding: 10px;
+    display: inline-block;
+}
+
+.language-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #0D205A;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    min-width: 120px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+}
+
+#language-switcher:hover .language-dropdown {
+    opacity: 1;
+    visibility: visible;
+}
+
+.language-dropdown li {
+    padding: 0;
+}
+
+.language-dropdown li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+.language-dropdown li:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+#language-switcher select {
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+#theme-toggle {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Adjust sidebar and content for fixed navbar */
+.sidebar {
+    top: 60px;
+    height: calc(100vh - 60px);
+}
+
+.content {
+    padding-top: 60px;
+}
+
+/* Center content */
+.markdown-section {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Ensure sidebar visibility */
+body .sidebar {
+    left: 0;
+}
+
+body .content {
+    left: 300px;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    body .sidebar {
+        left: -300px;
+        transition: left 0.3s ease;
+    }
+
+    body .content {
+        left: 0;
+        transition: left 0.3s ease;
+    }
+
+    body.close .sidebar {
+        left: 0;
+    }
+
+    body.close .content {
+        left: 300px;
+    }
+}
+
+/* Dark theme adjustments */
+body.dark-theme .sidebar {
+    background-color: #2a2a2a;
+}
+
+body.dark-theme .sidebar-nav li a {
+    color: #ffffff;
+}
+
+/* Dark theme styles */
+body.dark-theme {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+body.dark-theme .sidebar,
+body.dark-theme .markdown-section,
+body.dark-theme .search input,
+body.dark-theme .search .search-keyword,
+body.dark-theme .app-nav a {
+    color: #ffffff;
+}
+
+body.dark-theme .sidebar {
+    background-color: #2a2a2a;
+}
+
+body.dark-theme .sidebar-nav li a,
+body.dark-theme .sidebar ul li a,
+body.dark-theme .sidebar ul li strong,
+body.dark-theme .sidebar ul li p {
+    color: #ffffff;
+}
+
+body.dark-theme .markdown-section h1,
+body.dark-theme .markdown-section h2,
+body.dark-theme .markdown-section h3,
+body.dark-theme .markdown-section h4,
+body.dark-theme .markdown-section h5,
+body.dark-theme .markdown-section h6,
+body.dark-theme .markdown-section strong,
+body.dark-theme .markdown-section em,
+body.dark-theme .markdown-section code,
+body.dark-theme .markdown-section pre>code,
+body.dark-theme .markdown-section p,
+body.dark-theme .markdown-section ul,
+body.dark-theme .markdown-section ol,
+body.dark-theme .markdown-section blockquote {
+    color: #ffffff;
+}
+
+body.dark-theme .markdown-section code {
+    background-color: #333;
+}
+
+body.dark-theme .markdown-section pre>code {
+    background-color: #333;
+}
+
+body.dark-theme .markdown-section a {
+    color: #58a6ff;
+}
+
+body.dark-theme .docsify-copy-code-button {
+    background: #444;
+    color: #ffffff;
+}
+
+/* Adjust other elements as needed */
+
+/* Dark theme styles for headers */
+body.dark-theme .markdown-section h1,
+body.dark-theme .markdown-section h2,
+body.dark-theme .markdown-section h3,
+body.dark-theme .markdown-section h4,
+body.dark-theme .markdown-section h5,
+body.dark-theme .markdown-section h6 {
+    color: #ffffff !important;
+}
+
+/* Ensure inline images in headers don't affect text color */
+body.dark-theme .markdown-section h1 img,
+body.dark-theme .markdown-section h2 img,
+body.dark-theme .markdown-section h3 img,
+body.dark-theme .markdown-section h4 img,
+body.dark-theme .markdown-section h5 img,
+body.dark-theme .markdown-section h6 img {
+    vertical-align: middle;
+}
+
+/* Target the text next to images in headers */
+body.dark-theme .markdown-section h1 *:not(img),
+body.dark-theme .markdown-section h2 *:not(img),
+body.dark-theme .markdown-section h3 *:not(img),
+body.dark-theme .markdown-section h4 *:not(img),
+body.dark-theme .markdown-section h5 *:not(img),
+body.dark-theme .markdown-section h6 *:not(img) {
+    color: #ffffff !important;
+}
+
+/* Sidebar menu hover effect */
+.sidebar-nav li {
+    position: relative;
+    margin: 0;
+    cursor: pointer;
+}
+
+.sidebar-nav li a {
+    display: block;
+    padding: 6px 0;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+}
+
+.sidebar-nav li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 3px;
+    background-color: #3F51B5;
+    transform: scaleY(0);
+    transition: transform 0.2s, width 0.4s cubic-bezier(1, 0, 0, 1) 0.2s;
+}
+
+.sidebar-nav li:hover::before {
+    transform: scaleY(1);
+    width: 100%;
+}
+
+.sidebar-nav li:hover a {
+    color: #3F51B5;
+    padding-left: 20px;
+}
+
+/* Adjust for dark theme */
+body.dark-theme .sidebar-nav li:hover a {
+    color: #ffffff;
+}
+
+body.dark-theme .sidebar-nav li::before {
+    background-color: #3F51B5;
+}
+
+/* Sidebar styles */
+.sidebar {
+    border-right: 1px solid rgba(0, 0, 0, 0.07);
+}
+
+/* Sidebar nav styles */
+.sidebar-nav {
+    padding: 0;
+}
+
+.sidebar-nav li {
+    margin: 0;
+    position: relative;
+}
+
+.sidebar-nav li a {
+    display: block;
+    padding: 10px 15px;
+    color: #364149;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+/* Active state - line indicator */
+.sidebar-nav li.active::before,
+.sidebar-nav li:hover::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 3px;
+    background-color: #3F51B5;
+    transition: opacity 0.3s ease;
+}
+
+/* Hover effect */
+.sidebar-nav li:hover::before {
+    opacity: 0.5;
+}
+
+/* Adjust for dark theme */
+body.dark-theme .sidebar {
+    border-right-color: rgba(255, 255, 255, 0.07);
+}
+
+body.dark-theme .sidebar-nav li a {
+    color: #ffffff;
+}
+
+/* Remove default sidebar toggle button */
+.sidebar-toggle {
+    display: none;
+}
+
+/* Navbar styles - ensure it's visible */
+.app-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background-color: #0D205A;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    z-index: 100;
+}
+
+/* Sidebar styles - ensure it's visible */
+.sidebar {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    background-color: #f3f3f3;
+    overflow-y: auto;
+    z-index: 99;
+}
+
+/* Sidebar nav styles */
+.sidebar-nav li {
+    position: relative;
+}
+
+.sidebar-nav li a {
+    display: block;
+    padding: 10px 15px;
+    color: #364149;
+    text-decoration: none;
+}
+
+.sidebar-nav li.active::before,
+.sidebar-nav li:hover::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 3px;
+    background-color: #3F51B5;
+}
+
+.sidebar-nav li:hover::before {
+    opacity: 0.5;
+}
+
+/* Content styles */
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-top: 80px;
+    margin-left: 300px;
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+    .sidebar {
+        left: -300px;
+        transition: left 0.3s ease;
+    }
+
+    body.close .sidebar {
+        left: 0;
+    }
+
+    .content {
+        margin-left: 0;
+        transition: margin-left 0.3s ease;
+    }
+
+    body.close .content {
+        margin-left: 300px;
+    }
+}
+
+/* Dark theme adjustments */
+body.dark-theme .sidebar {
+    background-color: #2a2a2a;
+}
+
+body.dark-theme .sidebar-nav li a {
+    color: #ffffff;
+}
+
+/* Ensure navbar is at the very top */
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding-top: 60px;
+    /* Height of the navbar */
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    margin: 0;
+    padding: 0 20px;
+    background-color: #0D205A;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#app {
+    margin-top: 0;
+}
+
+.content {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.sidebar {
+    top: 60px;
+    padding-top: 0;
+}
+
+/* Override Docsify's default styles */
+.app-nav {
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 60px;
+    background-color: #0D205A;
+}
+
+.github-corner {
+    display: none;
+}
+
+.custom-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    margin: 0;
+    padding: 0 20px;
+    background-color: #0D205A;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Search styles */
+.search-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+#search-input {
+    padding: 5px 30px 5px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 14px;
+}
+
+#search-input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.search-icon {
+    position: absolute;
+    right: 10px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* Adjust the navbar layout */
+.custom-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .search-wrapper {
+        display: none;
+        /* Hide search on small screens if needed */
+    }
+
+    #language-switcher {
+        margin-right: 10px;
+    }
+}
+
+/* Language indicator */
+#language-switcher::after {
+    content: attr(data-lang);
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+body[lang="en"] #language-switcher::after {
+    content: "EN";
+}
+
+body[lang="id"] #language-switcher::after {
+    content: "ID";
+}

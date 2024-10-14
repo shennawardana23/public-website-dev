@@ -6,7 +6,7 @@ This section contains the *Pull Request* process that runs on Arch Public Websit
 
 ---
 
-### *Main Cast*
+## *Main Cast*
 
 In the *Pull Request* process there are 2 main roles, namely:
 
@@ -16,7 +16,7 @@ In the *Pull Request* process there are 2 main roles, namely:
 
 ![](https://static.pbahotels.com/Assets/images/Hotel/exterior/d62e3d6a1766e1d3c8a7e478bddd78a3cd3f8fae.png)
 
-### *Pull Request Manifesto @ Arch Public Website Dev*
+## *Pull Request @ Arch Public Website Dev*
 
 1. There must be no development process in the `master` *branch* - this *branch* only functions to `merge, test & release` stable features
 2. Immediately create a *Pull Request* after the *branch* is created and the *remote push* has been carried out.
@@ -26,7 +26,7 @@ In the *Pull Request* process there are 2 main roles, namely:
 6. The main developer should perform the `merge` process on the local repository. Especially for the `develop` branch, it is best to *preserve commit history* by carrying out the `git merge --no-ff` process. For other branches, please `merge & squash` using `git merge --squash`
 7. The main developer who has push access to master and develop must set up the application release process and allow it to create a release branch with several additional work requests before merging it into develop. ` and `master`
 
-### Terms of *Branching*
+## Terms of *Branching*
 
 The *branch* name options that can be used are
 
@@ -47,7 +47,7 @@ For repositories that will not undergo much development (one and done), please u
 - **develop**: development results before `merge` to `master`
 <!-- - **latest** : all development will be done on this branch and a PR will be created to `develop` -->
 
-### Git Concepts
+## Git Concepts
 
 - Use relevant *commit* messages and insert appropriate *tags*.
 - [add] description of the file additions made

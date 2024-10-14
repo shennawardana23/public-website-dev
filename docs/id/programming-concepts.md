@@ -6,7 +6,7 @@ Bagian ini berisi rangkuman dan referensi dasar dasar pemrograman bagi Arch Publ
 
 ---
 
-### Konsep Clean Code
+## Konsep Clean Code
 
 Konsep *Clean Code* mempunyai beberapa penafsiran dan karakteristik, di antaranya :
 
@@ -37,7 +37,7 @@ Bacaan tambahan :
 
 ---
 
-### Konsep Readable Code
+## Konsep Readable Code
 
 Hal yang cukup sering dilupakan pengembang adalah bahwa kode yang mereka kembangkan akan digunakan kembali suatu hari nanti, mungkin oleh orang lain. Banyak kasus muncul ketika kode lama dibuka kembali, dibutuhkan waktu untuk memahami ataupun mengingat ulang bagaimana kode tersebut dibuat. Waktu tersebut dapat diminimalisir apabila kode yang dibuat mudah untuk dibaca dan dipahami.
 
@@ -67,9 +67,9 @@ Bacaan lebih lanjut :
 
 ---
 
-### Konsep SOLID, KISS & DRY
+## Konsep SOLID, KISS & DRY
 
-#### SOLID
+### SOLID
 
 - **Single responsibility** : Sebuah *class* hanya boleh memiliki 1 tanggung jawab. Jangan membuat sebuah *class* yang terlalu kompleks dan melakukan banyak hal sekaligus.
 
@@ -92,7 +92,7 @@ Bacaan lebih lanjut :
 
 ---
 
-#### KISS (Keep It Simple and Straightforward)
+### KISS (Keep It Simple and Straightforward)
 
 Konsep KISS menyatakan bahwa kode yang dibuat harus sederhana dan mudah dipahami tanpa mengorbankan kualitas hasil akhir pengerjaan kode.
 
@@ -104,7 +104,7 @@ Beberapa hal yang harus diperhatikan dalam penerapan konsep KISS adalah :
 
 ---
 
-#### DRY (Don’t Repeat Yourself)
+### DRY (Don’t Repeat Yourself)
 
 Menekankan pada penghapusan duplikasi kode yang tidak perlu dalam proyek pengembangan perangkat lunak. Menurut prinsip ini, setiap bagian dari pengetahuan atau logika harus memiliki representasi kanonik tunggal di dalam sistem.
 
@@ -128,7 +128,7 @@ Dengan menerapkan prinsip DRY, kami mengurangi kompleksitas, meningkatkan pemeli
 
 ---
 
-#### YAGNI (You Ain’t Gonna Need It)
+## YAGNI (You Ain’t Gonna Need It)
 
 Prinsip YAGNI (You Ain't Gonna Need It) menekankan untuk tidak mengimplementasikan fitur atau kode yang tidak segera diperlukan. Menurut prinsip ini, lebih baik fokus pada fitur-fitur yang penting dan hindari mengantisipasi kebutuhan masa depan yang bersifat hipotetis.
 
@@ -149,7 +149,7 @@ Bacaan lebih lanjut :
 
 ---
 
-#### Unit Test (Test Driven Development)
+## Unit Test (Test Driven Development)
 
 - **The Three Laws of TDD**
 Sekarang semua orang tahu bahwa TDD meminta kita untuk menulis unit test terlebih dahulu sebelum menulis kode produksi. Namun, aturan tersebut hanyalah puncak gunung es. Pertimbangkan tiga hukum berikut ini:
@@ -173,7 +173,7 @@ Anda tidak perlu membaca file log untuk mengetahui apakah tes tersebut lulus ata
 
 ---
 
-### Konsep OOP
+## Konsep OOP
 
 Beberapa konsep utama yang harus dipahami dari sebuah paradigma OOP ( *Object Oriented Programming* ) adalah :
 
@@ -226,7 +226,7 @@ Bacaan leboh lanjut :
 
 ---
 
-### Konsep Reactive Programming
+## Konsep Reactive Programming
 
 Beberapa konsep utama yang harus dipahami dari sebuah paradigma *Reactive Programming* adalah :
 

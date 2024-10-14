@@ -6,7 +6,7 @@ This section contains a description of the analysis documents on the Archipelago
 
 ---
 
-### Document *Software Requirement Specifications*
+## Document *Software Requirement Specifications*
 
 Is a document resulting from an analysis of system requirements desired by the user. This document contains an outline of the system creation and initial assumptions provided. Creating this document can be done using *Google Drive Template* ( *New -> Google Docs -> From a template* )
 
@@ -28,7 +28,7 @@ Insert the SRS document into the drive folder using the following name:
 
 ---
 
-### Document *Product Backlog*
+## Document *Product Backlog*
 
 This is a document that translates the analysis into a brief description of the features that will be implemented (*user stories*). Creating this document can be done using *Google Drive Template* ( *New -> Google Sheets -> From a template* )
 
@@ -44,7 +44,7 @@ Insert the *Product Backlog* document into the drive folder using the following 
 
 ---
 
-### Document *Tech Spec*
+## Document *Tech Spec*
 
 An abbreviation of *Technical Specification*, this document contains an explanation of each item in the *Product Backlog* in more detail in terms of technical aspects of implementation. This document was created to support the *sprint* that will be running. Creating this document can be done using *Google Drive Template* ( *New -> Google Docs -> From a template* )
 
@@ -68,7 +68,7 @@ Insert the *Tech Spec* document into the drive folder using the following name:
 
 ---
 
-### Document *Technical Test Specification*
+## Document *Technical Test Specification*
 
 This is a collaborative document between *Software Analyst* and *Quality Assurance*. This document combines *Tech Spec* with *Test Case* to obtain an efficient process without reducing the quality and information obtained in both documents. Creating this document can be done using *Google Drive Template* ( *New -> Google Sheets -> From a template* )
 
@@ -84,7 +84,7 @@ Insert the *Tech Spec* document into the drive folder using the following name:
 
 ---
 
-### Document *Tech Doc*
+## Document *Tech Doc*
 
 An abbreviation for *Technical Documentation*, this document contains a technical description of the system that has been implemented. Creating this document can be done using *Google Drive Template* ( *New -> Google Docs -> From a template* )
 

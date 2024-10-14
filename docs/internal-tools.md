@@ -6,7 +6,7 @@ This section contains guidelines for creating code, using *third party tools*, a
 
 ---
 
-### Appsmith Dashboard: Architectural standard for creating *web dashboards* using Appsmith
+## Appsmith Dashboard: Architectural standard for creating *web dashboards* using Appsmith
 
 *Appsmith* is an *open source* javascript framework used to create *internal tools* in the form of *web dashboards* on Arch Public Website Dev. *Appsmith* has main features such as the *drag and drop* feature for creating UI, the *data source* feature for the data retrieval process, as well as *one-click deploy* which can be used to quickly release *web dashboards*.
 
@@ -14,7 +14,7 @@ See full description in [Appsmith's Guide]()
 
 ---
 
-### FormIO Forms: Creation of standard forms using FormIO
+## FormIO Forms: Creation of standard forms using FormIO
 
 *FormIO* is a javascript-based *platform* used to create *internal/public* tools in the form of *web forms* on Arch Public Website Dev. *FormIO* has main features such as a *drag and drop* feature for creating UI, a *private cloud* feature for data storage, as well as *application embedding* which can be used to quickly release *web forms*.
 

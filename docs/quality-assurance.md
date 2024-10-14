@@ -6,7 +6,7 @@ This section contains guidelines for conducting testing well, descriptions of do
 
 ---
 
-### *Quality Assurance Workflow*
+## Quality Assurance Workflow
 
 The current *Quality Assurance* flow is as follows:
 
@@ -18,7 +18,7 @@ The current *Quality Assurance* flow is as follows:
 
 ---
 
-### Document Test
+## Document Test
 
 Document Test are created using *Google Doc - Test Plan*.
 Several things that need to be considered when creating test documents are:
@@ -28,7 +28,7 @@ Several things that need to be considered when creating test documents are:
 
 ---
 
-### *Manual Test*
+## *Manual Test*
 
 Manual tests are carried out based on the test document for the *testing* step by step guide.
 Manual tests are carried out by the developer after carrying out a *Pull Request* and then confirmed by QA. Once confirmed, *Pull Request* will *merge* to the *staging server*. and QA will start to build *E2E Automation Test* on *staging server*
@@ -37,7 +37,7 @@ Before the *sprint* ends, QA will ensure that all work completed meets the condi
 
 ---
 
-### *E2E Automation Test*
+## *E2E Automation Test*
 
 *E2E Automation Test* was built using the *[CodeceptJS](https://codecept.io/)* framework.
 Several things that need to be considered when creating an *E2E Automation Test* are:
@@ -49,7 +49,7 @@ Several things that need to be considered when creating an *E2E Automation Test*
 
 ---
 
-### *Bug Report Procedure*
+## *Bug Report Procedure*
 
 Ketika tim QA menemukan bugs atau ada yang harus diimprove di dalam aplikasi, ada *standar report* yang harus diperhatikan:
 
@@ -92,7 +92,7 @@ The *QA* team also has the right to carry out a *Decline Pull Request* with the 
 
 ---
 
-### *Release Notes*
+## *Release Notes*
 
 *Release Notes* are created using *[Docs Release Notes](release-notes-VnZ2Q4m4iC)*.
 Several things that need to be considered when making *Release Notes* are:

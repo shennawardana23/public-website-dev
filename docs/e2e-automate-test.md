@@ -13,7 +13,7 @@ This section contains guidelines for creating code, using *third party tools*, a
 
 ![](https://i.imgur.com/98gApwl.png)
 
-### Planning
+## Planning
 
 Planning is the flow stage of determining and dividing tasks, schedules and resources that will be used to test the system/module/feature/update/improvement that will be carried out.
 
@@ -23,7 +23,7 @@ PRD documents, SRS, and other forms of documentation that can explain the system
 **Output**:
 **Ora Story/Bug Card** (*Description, figma, & acceptance criteria included*)
 
-### Planning
+## Design
 
 Design is the flow stage of determining test specifications, creating test cases (*test cases*), risk analysis, usage analysis, and testing scheduling for each story/bug card Ora that has been determined.
 
@@ -33,7 +33,7 @@ Design is the flow stage of determining test specifications, creating test cases
 **Output**:
 **Test Plan** (*includes test cases*)
 
-### Application
+## Application
 
 Implementation is the flow stage for executing *test cases* that have been designed and planned in the *test plan*, conducting demos and documenting the results.
 
@@ -43,7 +43,7 @@ Implementation is the flow stage for executing *test cases* that have been desig
 **Output**:
 **Test Plan Progress Report** and demo feedback list
 
-### Results Analysis
+## Results Analysis
 
 Results analysis is a flow stage for analyzing test results, evaluating tests, carrying out additional testing if necessary, issuing *release notes* and tidying up the *test plan* document for the next development or maintenance (iteration).
 
@@ -57,7 +57,7 @@ Results analysis is a flow stage for analyzing test results, evaluating tests, c
 
 The implementation of *e2e testing* technically applies both *functional* and *non-functional* approaches. Each approach has a list of recommended techniques/tests that can be used to meet service requirements.
 
-### Functional
+## Functional Test
 
 Engineering/testing list:
 
@@ -69,7 +69,7 @@ Engineering/testing list:
 - Exploratory testing
 - User acceptance testing
 
-### Not Functional
+## Not Functional Test
 
 Engineering/testing list:
 
@@ -95,7 +95,7 @@ Components of a *manual* approach that need to be implemented and ensure that th
 - Compatibility
 - Verification and Validation
 
-### Automation
+## Automation
 
 Components of an *automation* approach that need to be implemented:
 

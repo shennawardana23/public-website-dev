@@ -6,7 +6,7 @@ Bagian ini berisi tentang proses *Pull Request* yang berjalan di Arch Public Web
 
 ---
 
-### *Main Cast*
+## Main Cast
 
 Dalam proses *Pull Request* ini terdapat 2 peran utama, yakni:
 
@@ -26,7 +26,7 @@ Dalam proses *Pull Request* ini terdapat 2 peran utama, yakni:
 6. Pengembang utama sebaiknya melakukan proses `merge` di repositori lokal. Khusus untuk branch `develop` sebaiknya dilakukan *preserve commit history* dengan melakukan proses `git merge --no-ff`. Untuk branch lain silahkan `merge & squash` menggunakan `git merge --squash`
 7. Pengembang utama yang memiliki akses *push* ke `master` dan `develop` harus mengatur proses `release` aplikasi dan memungkinkan untuk membuat *branch* `release` dengan beberapa permintaan pekerjaan tambahan sebelum akhirnya akan dilakukan `merge` ke `develop` dan `master`
 
-### Ketentuan *Branching*
+## Ketentuan *Branching*
 
 Pilihan nama *branch* yang dapat digunakan adalah
 
@@ -47,7 +47,7 @@ Untuk repository yang tidak akan mengalami banyak pengembangan ( one and done ),
 - **develop** : hasil pengembangan sebelum `merge` to `master`
 <!-- - **latest** : seluruh pengembangan akan dilakukan di branch ini dan PR akan dibuat ke `develop` -->
 
-### Konsep Git
+## Konsep Git
 
 - Gunakan pesan *commit* yang relevan dan masukkan *tag* yang sesuai.
   - [add] deskripsi penambahan berkas yang dilakukan

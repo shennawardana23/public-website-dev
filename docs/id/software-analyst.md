@@ -6,7 +6,7 @@ Bagian ini berisi mengenai deskripsi dokumen analisis yang ada di Archipelago Pu
 
 ---
 
-### Dokumen *Software Requirement Specification*
+## Dokumen *Software Requirement Specification*
 
 Merupakan dokumen hasil analisis kebutuhan sistem yang diinginkan oleh pengguna. Dokumen ini berisi garis besar pembuatan sistem dan asumsi awal yang diberikan. Pembuatan dokumen ini dapat dilakukan dengan menggunakan *Google Drive Template* ( *New -> Google Docs -> From a template* )
 
@@ -28,7 +28,7 @@ Masukkan dokumen SRS ke dalam drive folder dengan menggunakan penamaan sebagai b
 
 ---
 
-### Dokumen *Product Backlog*
+## Dokumen *Product Backlog*
 
 Merupakan dokumen hasil penjabaran analisis ke dalam deskripsi singkat fitur-fitur yang akan diimplementasikan (*user stories*). Pembuatan dokumen ini dapat dilakukan dengan menggunakan *Google Drive Template* ( *New -> Google Sheets -> From a template* )
 
@@ -44,7 +44,7 @@ Masukkan dokumen *Product Backlog* ke dalam drive folder dengan menggunakan pena
 
 ---
 
-### Dokumen *Tech Spec*
+## Dokumen *Tech Spec*
 
 Kepanjangan dari *Technical Specification*, dokumen ini berisi penjabaran setiap item dalam *Product Backlog* menjadi lebih detail dalam aspek teknis implementasi. Dokumen ini dibuat untuk mendukung *sprint* yang akan berjalan. Pembuatan dokumen ini dapat dilakukan dengan menggunakan *Google Drive Template* ( *New -> Google Docs -> From a template* )
 
@@ -68,7 +68,7 @@ Masukkan dokumen *Tech Spec* ke dalam drive folder dengan menggunakan penamaan s
 
 ---
 
-### Dokumen *Technical Test Specification*
+## Dokumen *Technical Test Specification*
 
 Merupakan dokumen kolaborasi antara *Software Analyst* dengan *Quality Assurance*. Dokumen ini menggabungkan antara *Tech Spec* dengan *Test Case* agar didapatkan proses yang efisien tanpa mengurangi kualitas dan informasi yang didapatkan dalam kedua dokument tersebut. Pembuatan dokumen ini dapat dilakukan dengan menggunakan *Google Drive Template* ( *New -> Google Sheets -> From a template* )
 
@@ -84,7 +84,7 @@ Masukkan dokumen *Tech Spec* ke dalam drive folder dengan menggunakan penamaan s
 
 ---
 
-### Dokumen *Tech Doc*
+## Dokumen *Tech Doc*
 
 Kepanjangan dari *Technical Documentation*, dokumen ini berisi penjabaran teknis dari sistem yang telah diimplementasikan. Pembuatan dokumen ini dapat dilakukan dengan menggunakan *Google Drive Template* ( *New -> Google Docs -> From a template* )
 

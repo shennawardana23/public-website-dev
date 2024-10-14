@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Tech Handbook</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
+  <link rel="stylesheet" href="custom.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Open+Sans:wght@400;600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body lang="en">
+  <nav class="custom-navbar">
+    <a href="#" id="sidebar-toggle">☰</a>
+    <span id="navbar-title">Tech Handbook</span>
+    <div class="navbar-right">
+      <div id="language-switcher">
+        <span>Languages</span>
+        <ul class="language-dropdown">
+          <li><a href="#/">English</a></li>
+          <li><a href="#/id/">Indonesia</a></li>
+        </ul>
+      </div>
+      <button id="theme-toggle"><i class="fas fa-moon"></i></button>
+    </div>
+  </nav>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      // name: 'Tech Handbook',
+      repo: '',
+      loadSidebar: true,
+      subMaxLevel: 2,
+      auto2top: true,
+      search: {
+        maxAge: 86400000, // Expiration time, the default one day
+        paths: 'auto',
+        placeholder: 'Type to search',
+        noData: 'No Results!',
+        depth: 6,
+        hideOtherSidebarContent: false,
+      },
+      themeColor: '#3F51B5',
+      fallbackLanguages: ['id'],
+      nameLink: {
+        '/id/': '#/id/',
+        '/': '#/'
+      },
+    }
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script>
+    // Sidebar toggle
+    document.getElementById('sidebar-toggle').addEventListener('click', function (e) {
+      e.preventDefault();
+      document.body.classList.toggle('close');
+    });
+
+    // Theme toggle
+    document.getElementById('theme-toggle').addEventListener('click', function () {
+      document.body.classList.toggle('dark-theme');
+      this.querySelector('i').classList.toggle('fa-moon');
+      this.querySelector('i').classList.toggle('fa-sun');
+    });
+
+    // Add this after your existing Docsify configuration
+    (function () {
+      var lang = location.hash.match(/#\/(id)\//);
+      if (lang) {
+        document.body.setAttribute('lang', lang[1]);
+      }
+    })();
+
+    function updateLanguage() {
+      var lang = location.hash.match(/#\/(id)\//);
+      document.body.setAttribute('lang', lang ? lang[1] : 'en');
+      document.getElementById('language-switcher').setAttribute('data-lang', lang ? 'ID' : 'EN');
+    }
+
+    // Call this function when the page loads and when the hash changes
+    window.addEventListener('load', updateLanguage);
+    window.addEventListener('hashchange', updateLanguage);
+  </script>
+</body>
+
+</html>

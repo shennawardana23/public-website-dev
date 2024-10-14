@@ -6,7 +6,7 @@ Bagian ini berisi mengenai panduan untuk melakukan testing dengan baik, deskrips
 
 ---
 
-### *Quality Assurance Workflow*
+## Quality Assurance Workflow
 
 Alur *Quality Assurance* yang dilakukan saat ini adalah sebagai berikut:
 
@@ -18,7 +18,7 @@ Alur *Quality Assurance* yang dilakukan saat ini adalah sebagai berikut:
 
 ---
 
-### Dokumen Tes
+## Dokumen Test
 
 Dokumen tes dibuat dengan menggunakan *Google Doc - Test Plan*.
 Beberapa hal yang perlu diperhatikan dalam melakukan pembuatan dokumen tes adalah:
@@ -28,7 +28,7 @@ Beberapa hal yang perlu diperhatikan dalam melakukan pembuatan dokumen tes adala
 
 ---
 
-### *Manual Test*
+## Manual Test
 
 Tes manual dilakukan berdasarkan dokumen tes untuk panduan langkah langkah *testing*.
 Tes manual dilakukan oleh pengembang setelah melakukan *Pull Request* untuk kemudian dikonfirmasi oleh QA. Setelah terkonfirmasi, *Pull Request* akan *merge* ke *staging server*. dan QA akan memulai untuk membangun *E2E Automation Test* pada *staging server*
@@ -37,7 +37,7 @@ Sebelum *sprint* berakhir, QA akan memastikan kembali seluruh pekerjaan yang dis
 
 ---
 
-### *E2E Automation Test*
+## E2E Automation Test
 
 *E2E Automation Test* dibangun dengan menggunakan framework *[CodeceptJS](https://codecept.io/)*.
 Beberapa hal yang perlu diperhatikan dalam melakukan pembuatan *E2E Automationt Test* adalah :
@@ -92,7 +92,7 @@ Tim *QA* juga berhak melakukan *Decline Pull Request* dengan ketentuan sebagai b
 
 ---
 
-### *Release Notes*
+## Release Notes
 
 *Release Notes* dibuat dengan menggunakan *[Docs Release Notes](release-notes-VnZ2Q4m4iC)*.
 Beberapa hal yang perlu diperhatikan dalam melakukan pembuatan *Release Notes* adalah:

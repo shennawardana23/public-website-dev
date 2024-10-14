@@ -6,7 +6,7 @@ This section contains the SCRUM process that runs on Arch Public Website Dev, an
 
 ---
 
-### SCRUM @Arch Public Website Dev
+## SCRUM @Arch Public Website Dev
 
 SCRUM in Arch Public Website Dev is divided into several main processes
 
@@ -25,7 +25,7 @@ increments.
 
 ---
 
-### Ora @Arch Public Website Dev
+## Ora @Arch Public Website Dev
 
 In the process of running SCRUM, Arch Public Website Dev uses a collaboration system called Ora.
 **TYPE OF TASK**

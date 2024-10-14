@@ -13,7 +13,7 @@ Bagian ini berisi mengenai panduan untuk membuat kode, menggunakan *third-party 
 
 ![](https://i.imgur.com/98gApwl.png)
 
-### Perencanaan
+## Perencanaan
 
 Perencanaan merupakan tahap alur untuk menentukan dan membagi tugas, jadwal, dan sumber daya yang akan digunakan untuk melakukan pengujian pada sistem/modul/fitur/pembaruan/perbaikan yang akan dikerjakan.
 
@@ -33,7 +33,7 @@ Perancangan merupakan tahap alur untuk menentukan spesifikasi pengujian, pembuat
 **Output**:
 **Test Plan** (*test cases included*)
 
-### Pelaksanaan
+## Pelaksanaan
 
 Pelaksanaan merupakan tahap alur untuk mengeksekusi *test cases* yang telah dirancang dan direncanakan pada *test plan*, melakukan demo dan mendokumentasikan hasilnya.
 
@@ -43,7 +43,7 @@ Pelaksanaan merupakan tahap alur untuk mengeksekusi *test cases* yang telah dira
 **Output**:
 **Test Plan Progress Report** dan demo feedback list
 
-### Analisis Hasil
+## Analisis Hasil
 
 Analisis hasil merupakan tahap alur untuk menganalisis hasil pengujian, mengevaluasi pengujian, melakukan pengujian tambahan jika diperlukan, merilis *release notes* dan merapikan dokumen *test plan* untuk (iterasi) pengembangan atau pemeliharaan selanjutnya.
 
@@ -95,7 +95,7 @@ Komponen pendekatan *manual* yang perlu diterapkan dan dipastikan telah ada atau
 - Compatibility
 - Verification and Validation
 
-### Automation
+## Automation
 
 Komponen pendekatan *automation* yang perlu diterapkan:
 

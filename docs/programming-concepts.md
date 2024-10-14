@@ -6,7 +6,7 @@ This section contains a summary and basic references for programming for Arch Pu
 
 ---
 
-### Clean Code
+## Clean Code
 
 The concept of *Clean Code* has several interpretations and characteristics, including:
 
@@ -37,7 +37,7 @@ Read more:
 
 ---
 
-### Readable Code Concept
+## Readable Code Concept
 
 What developers quite often forget is that the code they develop will be reused someday, perhaps by someone else. Many cases arise when old code is reopened, it takes time to understand or remember how the code was created. This time can be minimized if the code is easy to read and understand.
 
@@ -67,9 +67,9 @@ Read more:
 
 ---
 
-### SOLID, KISS & DRY
+## SOLID, KISS & DRY
 
-#### SOLID
+### SOLID
 
 - **Single responsibility** : *Class* can only have 1 responsibility. Don't create *classes* that are too complicated and do too many things at once.
 
@@ -92,7 +92,7 @@ Read more:
 
 ---
 
-#### KISS (Keep It Simple and Straightforward)
+### KISS (Keep It Simple and Straightforward)
 
 The KISS concept states that the code created must be simple and easy to understand without sacrificing the quality of the final code output.
 
@@ -104,7 +104,7 @@ Several things that must be considered when implementing the KISS concept are:
 
 ---
 
-#### DRY (Don't Repeat Yourself)
+### DRY (Don't Repeat Yourself)
 
 Emphasizes on eliminating unnecessary code duplication in software development projects. According to this principle, any knowledge or logic must have a single canonical representation in the system.
 
@@ -128,7 +128,7 @@ By applying DRY principles, we reduce complexity, increase maintainability, and 
 
 ---
 
-#### YAGNI (You Ain’t Gonna Need It)
+## YAGNI (You Ain’t Gonna Need It)
 
 The YAGNI (You Ain't Gonna Need It) principle emphasizes not implementing features or code that are not immediately needed. According to this principle, it is better to focus on the features that matter and avoid anticipating hypothetical future needs.
 
@@ -149,7 +149,7 @@ Read more:
 
 ---
 
-#### Unit Test (Test Driven Development)
+## Unit Test (Test Driven Development)
 
 - **The Three Laws of TDD**
 By now everyone knows that TDD requires us to write unit tests first before writing production code. However, these regulations are just the tip of the iceberg. Pay attention to the following three laws:
@@ -173,7 +173,7 @@ You don't need to read the log file to know whether the test passed or not. You 
 
 ---
 
-### OOP concept
+## OOP concept
 
 Some of the main concepts that must be understood from the OOP (*Object Oriented Programming*) paradigm are:
 
@@ -227,7 +227,7 @@ Read more:
 
 ---
 
-### Konsep Reactive Programming
+## Reactive Programming Concept
 
 Some of the main concepts that must be understood from the *Reactive Programming* paradigm are:
 
