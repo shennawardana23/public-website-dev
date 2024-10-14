@@ -1,6 +1,7 @@
 export default {
-    title: "Public Website Developer",
-    description: "Documentation for the Arch Public Website Dev team",
+    title: "My Documentation",
+    description: "A VitePress Site",
+    base: '/public-website-dev/', // This should match your repo name
     locales: {
         root: {
             label: 'English',
