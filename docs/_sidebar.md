@@ -1,5 +1,5 @@
 - [Introduction](/)
-- [Table of Contents]()
+- [Table of Contents](/)
   - [Automation Test](e2e-automate-test.md)
   - [Internal Tools](internal-tools.md)
   - [Programming Concepts](programming-concepts.md)
