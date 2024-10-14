@@ -16,13 +16,19 @@ This document is broken down into several main sections:
   
   This section contains a summary and basic reference of programming fundamentals for the Archipelago Public Website Dev technical team.
 
+---
+
 - 📚 [Internal Tools Developer](internal-tools.md)
   
   This section covers internal tools used by Archipelago Public Website Dev.
 
+---
+
 - 📚 [Collaboration & Review using Pull Request](pull-request-workflow.md)
   
   This section explains the Pull Request process that runs on the Archipelago Public Website Dev, including procedures and agreements that apply.
+
+---
 
 - 📚 [Guidelines in Quality Assurance](quality-assurance.md)
   
@@ -32,9 +38,13 @@ This document is broken down into several main sections:
   
   This section contains a description of the existing documents analyzed on the Archipelago Public Website Dev, processes, and applicable agreements.
 
+---
+
 - 📚 [Guidelines for E2E Automation Testing](e2e-automate-test.md)
   
   This section describes the end-to-end testing implementation, process, and agreements that apply to the Archipelago Public Website Dev.
+
+---
 
 - 📚 [Guidelines for SCRUM](scrum.md)
   
