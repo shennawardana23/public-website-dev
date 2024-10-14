@@ -37,6 +37,28 @@ folder
 │  │     └─ collage.png
 │  └─ index.md
 └─ package.json
+
+public-website-dev/
+├── docs/
+│   ├── .vitepress/
+│   │   ├── theme/
+│   │   │   └── custom.css
+│   │   └── config.js
+│   ├── .github/
+│   │   └── workflows/
+│   │       └── deploy.yml
+│   ├── guide/
+│   │   └── ... (our guide markdown files)
+│   ├── id/
+│   │   └── guide/
+│   │       └── ... (our Indonesian guide markdown files)
+│   ├── public/
+│   │   └── images/
+│   │       ├── arch.png
+│   │       └── collage.png
+│   ├── index.md
+│   └── ... (other markdown files)
+└── package.json
 ```
 
 run
