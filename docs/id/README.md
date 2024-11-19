@@ -1,5 +1,5 @@
 
-<!-- ![License: PWD](https://img.shields.io/badge/License-MIT-green.svg) -->
+![Awesome](https://awesome.re/badge.svg)
 ![Status](https://img.shields.io/badge/status-review-yellow)
 <!-- ![status](https://img.shields.io/badge/status-up-brightgreen) -->
 
