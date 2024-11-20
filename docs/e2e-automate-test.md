@@ -11,6 +11,21 @@ This section contains guidelines for creating code, using *third party tools*, a
 
 ![](https://i.imgur.com/98gApwl.png)
 
+```mermaid
+flowchart TD
+    A[Homepage] -->|Click Login| B(Login Modal)
+    A[Homepage] -->|Click Sign up| C(Registration Page)
+    C -->|Click back| A
+    B[Login Modal] --->|Enter valid username and password| D[Login Button]
+    B -->|Enter incorrect details| B
+    B -->|Close Modal| A
+    D -->|Click Login| E[Logged in lobby]
+    C -->|Enter valid details| F[Submit Button]
+    C -->|Enter incorrect details| C
+    F -->|Click Submit| E
+    E --> G[Logout Button] -->|Click Logout| A
+```
+
 ## Planning
 
 Planning is the flow stage of determining and dividing tasks, schedules and resources that will be used to test the system/module/feature/update/improvement that will be carried out.

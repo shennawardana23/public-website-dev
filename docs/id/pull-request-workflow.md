@@ -73,3 +73,36 @@ Untuk repository yang tidak akan mengalami banyak pengembangan ( one and done ),
 
 ## Others?
 ```
+
+```mermaid
+---
+title: GitHub Flow Diagram
+---
+
+gitGraph
+   commit id: "Initial Commit"
+   branch develop
+   checkout develop
+   commit id: "Feature 1"
+   commit id: "Feature 2"
+   checkout main
+   merge develop
+   commit id: "Release Version 1.0"
+   branch hotfix
+   checkout hotfix
+   commit id: "Hotfix 1"
+   checkout main
+   merge hotfix
+   commit id: "Release Version 1.1"
+   checkout develop
+   commit id: "Feature 3"
+   checkout main
+   merge develop
+   commit id: "Release Version 2.0"
+   branch featureX
+   checkout featureX
+   commit id: "Feature X"
+   checkout main
+   merge featureX
+   commit id: "Release Version X.X"
+```
